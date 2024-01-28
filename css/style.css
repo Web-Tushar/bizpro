@@ -253,5 +253,64 @@ ul,ol{
   line-height: 24px;
 }
 
-/* ===== code banner end here==== */
+/* =====  banner code end here==== */
+
+
+   /* =====works_part start end here==== */
+   #works{
+    padding: 110px 0;
+    background-color: rgba(255, 255, 255, 0.80);
+  }
+  
+  .works_head{
+    text-align: center;
+    width: 431px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .works_head .works_ellips{
+    position: absolute;
+    top: -3px;
+    right: 125px;
+  }
+  
+  .works_wrapper{
+    margin-top: 70px;
+    display: flex;
+    column-gap: 30px;
+  }
+  
+  .works_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color:rgba(236, 249, 255, 0.80);
+  }
+  .works_item{
+    width: 370px;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+    border-radius: 8px;
+  }
+  .works_item_wrapper{
+    padding: 30px;
+  }
+  .works_content h4{
+    margin-top: 50px;
+    color: var(--black_color);
+    font-family: var(--Poppins);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+  }
+  
+  .works_content .paragraph{
+    margin-top: 10px;
+    width: 310px;
+  }
+  
+  
+  /* =====works_part end here==== */
 
