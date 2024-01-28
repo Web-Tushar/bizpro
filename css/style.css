@@ -1,0 +1,128 @@
+:root{
+  --Poppins: 'Poppins', sans-serif;
+  --primary_color: #828297;
+  --black_color: #060640;
+  --common_color:#9090A7;
+}
+
+/* =====common code start here==== */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  line-height: .8;
+}
+
+ul,ol{
+  list-style-type: none;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.common_btn{
+    padding: 20px 30px;
+    font-family: var(--Poppins);
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--black_color);
+    border-radius: 6px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.head{
+  color: var(--black_color);
+  font-family: var(--Poppins);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+}
+.paragraph{
+  color:  #9090A7;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; 
+}
+/* =====common code end here==== */
+
+/* =====navber code start here==== */
+#navber{
+  padding: 50px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+}
+
+.nav_wrapper{
+  padding: 22px 22px 22px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  
+}
+
+.logo{
+  width: 20%;
+  
+}
+.menu{
+  width: 60%;
+}
+.menu ul{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  column-gap: 25px;
+}
+.menu ul li a{
+  color: var(--primary_color);
+  font-family: var(--Poppins);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  transition: all linear .3s;
+}
+.menu ul li a:hover{
+   color: #00E5CC;
+}
+
+.nav_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  width: 20%;
+  
+}
+.nav_btn .common_btn{
+  color:#fff;
+
+}
+.nav_btn a{
+  display: inline-block;
+  color: var(--black_color);
+  font-family: var(--Poppins);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+}
+/* =====navber code end here==== */
+
