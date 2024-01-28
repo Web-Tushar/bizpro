@@ -528,3 +528,23 @@ ul,ol{
   }
   /* ===== popular code end here==== */
 
+   /* ====promotion part start here==== */
+   #promotion{
+    padding: 110px 0;
+    background-color: #fff;
+  }
+  .promotion__heading{
+    width: 764px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  .promotion__heading .promotion_ellips{
+    position: absolute;
+    top: -3px;
+    left: 383px;
+  }
+  
+  /* ====promotion part end here==== */
+
