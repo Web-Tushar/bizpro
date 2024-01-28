@@ -314,3 +314,54 @@ ul,ol{
   
   /* =====works_part end here==== */
 
+  /* =====about_part  start here==== */
+  .about_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    position: relative;
+  }
+  
+  .about_wrapper .about__shape{
+    position: absolute;
+    top: -84px;
+    right: -90px;
+  
+  }
+  
+  
+  .about_content .paragraph{
+    margin-top: 12px;
+    width: 431px;
+  }
+  
+    .about_content{
+     position: relative;
+    }
+  
+  .about_content .about__ellips{
+    position: absolute;
+    top: -4px;
+    left: 79px;
+  }
+  
+  .about_sub_content{
+    align-items: center;
+    display: flex;
+    column-gap: 25px;
+  }
+  .about_sub_heading h4{
+    margin-top: 40px;
+    color: var(--black_color);
+    font-family: var(--Poppins);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  
+  .about_sub_heading .paragraph{
+    margin-top: 8px;
+    width: 371px;
+  }
+  /* =====about_part  end here==== */
+
