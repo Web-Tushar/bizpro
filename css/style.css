@@ -731,3 +731,14 @@ ul,ol{
   }
   /* ====footer part start here==== */
 
+  #footer_two{
+    background-color: #000;
+  }
+  
+  .copy_right{
+    padding: 27px 0;
+    display: flex;
+    justify-content: space-between;
+  
+  } 
+
